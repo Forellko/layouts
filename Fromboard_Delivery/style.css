@@ -111,3 +111,83 @@ nav {
   padding-bottom: 10px;
   border-radius: 4px;
 }
+
+/* Container 1 */
+
+.container-1 {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 120px;
+  background-color: #e5e7eb;
+  padding-top: 60px;
+  height: 515px;
+}
+
+.container-1-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.container-1-left-title {
+  font-family: FormularBold;
+  font-size: 29px;
+  line-height: 30px;
+}
+
+#container-1-left-image {
+  width: 588px;
+  height: 277px;
+}
+
+.container-1-right {
+  width: 50%;
+}
+
+.container-1-right-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 'name-area name-area' 'mail phone' 'area weight' 'country city' 'deliveryplace deliverycity' 'submit submit';
+}
+
+#container-1-right-name {
+  grid-area: name-area;
+}
+
+#container-1-right-mail {
+  grid-area: mail;
+}
+
+#container-1-right-phone {
+  grid-area: phone;
+}
+
+#container-1-right-area {
+  grid-area: area;
+}
+
+#container-1-right-weight {
+  grid-area: weight;
+}
+
+#container-1-right-country {
+  grid-area: country;
+}
+
+#container-1-right-city {
+  grid-area: city;
+}
+
+#container-1-right-deliveryplace {
+  grid-area: deliveryplace;
+}
+
+#container-1-right-deliverycity {
+  grid-area: deliverycity;
+}
+
+#container-1-right-submit {
+  grid-area: submit;
+}
