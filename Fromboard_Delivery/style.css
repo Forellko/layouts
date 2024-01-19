@@ -13,13 +13,15 @@
   box-sizing: border-box;
   font-family: FormularLite;
 }
+.wrapper {
+  padding-left: 150px;
+  padding-right: 120px;
+}
 header {
   background-color: #f9fafb;
   width: 100%;
   height: 150px;
   padding: 13px 0;
-  padding-left: 150px;
-  padding-right: 120px;
 }
 
 .logo {
@@ -116,8 +118,6 @@ nav {
 
 .container-1 {
   display: flex;
-  padding-left: 150px;
-  padding-right: 120px;
   background-color: #e5e7eb;
   padding-top: 60px;
   height: 540px;
@@ -225,4 +225,57 @@ nav {
 #container-1-right-submit {
   background-color: #8b5cf6;
   color: #f9fafb;
+}
+
+/* Container 2 */
+.container-2 {
+  background-color: #e5e7eb;
+}
+
+.container-2-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  font-size: 25px;
+  font-family: FormularBold;
+}
+
+.container-2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5px;
+  gap: 45px;
+  row-gap: 60px;
+  padding-top: 15px;
+}
+
+.container-2-grid-element {
+  display: flex;
+  justify-content: space-between;
+  width: 333px;
+}
+
+.container-2-grid-element-image {
+  width: 110px;
+  height: 105px;
+  padding-bottom: 10px;
+}
+
+.container-2-grid-element-right {
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+}
+
+.container-2-grid-element-title {
+  font-family: FormularBold;
+  font-size: 19px;
+}
+
+.container-2-grid-element-description {
+  font-size: 10px;
+  margin-top: 10px;
 }
