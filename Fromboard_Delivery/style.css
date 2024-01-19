@@ -122,6 +122,7 @@ nav {
   padding-top: 60px;
   height: 540px;
   padding-bottom: 30px;
+  justify-content: space-between;
 }
 
 .container-1-left {
@@ -143,7 +144,7 @@ nav {
 }
 
 .container-1-right {
-  width: 50%;
+  width: 49.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +268,7 @@ nav {
 .container-2-grid-element-right {
   display: flex;
   flex-direction: column;
-  width: 212px;
+  width: 220px;
 }
 
 .container-2-grid-element-title {
@@ -276,6 +277,56 @@ nav {
 }
 
 .container-2-grid-element-description {
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 10px;
+}
+
+/* Container 3 */
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  padding-bottom: 20px;
+  background-color: #e5e7eb;
+}
+
+.container-3-title {
+  font-family: FormularBold;
+  font-size: 24px;
+}
+
+.container-3-description {
+  width: 550px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 18px;
+}
+
+.container-3-documents {
+  display: flex;
+  margin-top: 15px;
+}
+
+.container-3-image {
+  width: 290px;
+}
+
+.container-3-image-title {
+  font-family: FormularBold;
+  font-size: 15px;
+  text-align: center;
+  width: 300px;
+  line-height: 23px;
+}
+
+.container-3-show {
+  background-color: #8b5cf6;
+  color: #f9fafb;
+  border-radius: 12px;
+  padding: 10px;
+  width: 250px;
+  margin-top: 22px;
 }
