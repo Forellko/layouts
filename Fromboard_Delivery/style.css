@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: FormularLite;
 }
 header {
   background-color: #f9fafb;
@@ -54,9 +55,9 @@ header {
 
 .header-info-text {
   font-size: 13px;
-  letter-spacing: 1px;
   font-weight: 400;
   padding-top: 5px;
+  font-family: sans-serif;
 }
 
 .header-info-text-block {
@@ -83,4 +84,18 @@ header {
 .phone-text {
   font-size: 18px;
   font-family: FormularLite;
+}
+
+nav {
+  display: flex;
+  width: 290px;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
 }
