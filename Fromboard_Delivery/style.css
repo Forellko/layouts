@@ -324,9 +324,59 @@ nav {
 
 .container-3-show {
   background-color: #8b5cf6;
+  font-family: FormularBold;
   color: #f9fafb;
   border-radius: 12px;
   padding: 10px;
   width: 250px;
   margin-top: 22px;
+}
+
+/* Container 4 */
+.container-4 {
+  padding-top: 40px;
+  background-color: #e5e7eb;
+  padding-bottom: 20px;
+}
+.container-4-title {
+  text-align: center;
+  font-family: FormularBold;
+  font-size: 25px;
+}
+
+.container-4-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container-4-feedback {
+  width: 40%;
+  display: flex;
+  background-color: #f9fafb;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 258px;
+  padding: 32px;
+}
+
+.container-4-feedback-text {
+  font-family: FormularBold;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.container-4-toleft-image,
+.container-4-toright-image {
+  width: 50px;
+  margin-bottom: 54px;
+}
+.container-4-toleft-image {
+  margin-left: 25px;
+}
+
+.container-4-toright-image {
+  margin-right: 25px;
 }
