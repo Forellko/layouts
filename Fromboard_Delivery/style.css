@@ -120,7 +120,8 @@ nav {
   padding-right: 120px;
   background-color: #e5e7eb;
   padding-top: 60px;
-  height: 515px;
+  height: 540px;
+  padding-bottom: 30px;
 }
 
 .container-1-left {
@@ -143,6 +144,25 @@ nav {
 
 .container-1-right {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9fafb;
+  border-radius: 16px;
+  padding-top: 19px;
+}
+
+.container-1-right-title {
+  font-family: FormularBold;
+  text-align: center;
+  font-size: 23px;
+}
+.container-1-right-description {
+  margin-top: 10px;
+  width: 278px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
 }
 
 .container-1-right-grid {
@@ -150,6 +170,16 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 'name-area name-area' 'mail phone' 'area weight' 'country city' 'deliveryplace deliverycity' 'submit submit';
+  margin-top: 20px;
+  width: 390px;
+  gap: 22px;
+}
+
+.container-1-right-input {
+  height: 34px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 #container-1-right-name {
@@ -190,4 +220,9 @@ nav {
 
 #container-1-right-submit {
   grid-area: submit;
+}
+
+#container-1-right-submit {
+  background-color: #8b5cf6;
+  color: #f9fafb;
 }
