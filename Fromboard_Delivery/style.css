@@ -1,6 +1,10 @@
 @font-face {
-  font-family: Formular;
+  font-family: FormularBold;
   src: url(fonts/formular-bold-trial.otf);
+}
+@font-face {
+  font-family: FormularLite;
+  src: url(fonts/formular-regular-trial.otf);
 }
 
 * {
@@ -12,7 +16,9 @@ header {
   background-color: #f9fafb;
   width: 100%;
   height: 150px;
-  padding: 13px 150px;
+  padding: 13px 0;
+  padding-left: 150px;
+  padding-right: 120px;
 }
 
 .logo {
@@ -28,8 +34,53 @@ header {
 }
 
 .logo-text {
-  font-family: Formular;
+  font-family: FormularBold;
   font-weight: 900;
   font-size: 19px;
   font-weight: 500;
+}
+
+.header-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+  width: 590px;
+  justify-content: space-between;
+}
+
+.header-info-text {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.header-info-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.phone-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.phone-number {
+  font-size: 29px;
+  font-family: FormularBold;
+}
+
+.phone-text {
+  font-size: 18px;
+  font-family: FormularLite;
 }
