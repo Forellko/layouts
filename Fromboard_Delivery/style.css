@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Formular;
+  src: url(fonts/formular-bold-trial.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #f9fafb;
+  width: 100%;
+  height: 150px;
+  padding: 13px 150px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.logo-flex {
+  display: flex;
+  width: 242px;
+  height: 74px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: Formular;
+  font-weight: 900;
+  font-size: 19px;
+  font-weight: 500;
+}
