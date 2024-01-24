@@ -96,3 +96,26 @@ header {
   color: #fff;
   margin-top: 16px;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+  gap: 15px;
+  font-size: 12px;
+}
+
+.footer-email {
+  color: #489dff;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 10px;
+}
+
+.social-img {
+  width: 18px;
+  height: 18px;
+}
