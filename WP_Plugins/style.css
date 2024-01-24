@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Poppins;
+  src: url('./fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('./fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: Poppins;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 24px;
+  height: 80px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 42px;
+}
